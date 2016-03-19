@@ -1,0 +1,82 @@
+% LaTeX resume using res.cls
+\documentclass[line,margin]{resume} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+\name{Константин Брударь, 22 года (22.04.1993)}
+% \address used twice to have two lines of address
+\address{г. Москва, м. Авиамоторная}
+\address{+7 926 701-67-94, brudar@bk.ru}
+
+ 
+\begin{resume}
+ 
+\section{ЦЕЛЬ}       
+    Работа, стажировка в сфере разработки программного обеспечения 
+ 
+ 
+\section{ОБРАЗОВАНИЕ}
+    {\sl Бакалавр,} прикладная математика и информатика \hfill июнь 2016 \\
+    % \sl will be bold italic in New Century Schoolbook (or
+    % any postscript font) and just slanted in
+    % Computer Modern (default) font
+    МГУ имени М. В. Ломоносова \\
+    Факультет вычислительной математики и кибернетики \\
+    Кафедра суперкомпьютеров и квантовой информатики
+ 
+ 
+\section{НАВЫКИ}
+    {\sl Программирование:}
+        Python, C, C++, Bash, Makefile \\
+%    {\sl Параллельное программирование:} OpenMP, MPI, CUDA \\
+    {\sl Операционные системы:}
+        Windows, Linux \\
+    {\sl Библиотеки, верстка:}
+        Numpy, Matplotlib, QuTiP, \LaTeX, HTML, CSS
+ 
+\section{ОПЫТ \\ РАБОТЫ}
+    {\sl Программист} \hfill сентябрь--декабрь 2015 \\
+        Производственная практика в вузе
+        \begin{itemize}  \itemsep -2pt % reduce space between items
+            \item
+                Разработка программы для моделирования динамики квантовой системы
+            \item
+                Проектирование сайта кафедры 
+        \end{itemize}
+
+    {\sl Специалист по программному обеспечению} \hfill июнь--сентябрь 2015 \\
+        ООО СовИнТех, \href{www.svnth.ru}{www.svnth.ru} \\
+        Производственный департамент Парус
+        \begin{itemize}  \itemsep -2pt % reduce space between items
+            \item
+                Настройка программной системы Парус 
+            \item
+                Консультирование клиентов по работе с программой 
+        \end{itemize}
+
+ 
+\section{СЕРТИФИКАТЫ}
+    \begin{itemize}  \itemsep -2pt % reduce space between items
+        \item
+            Программирование на Python \\
+            \href{https://stepic.org/certificate/dc3bc62e168ed5459a4e654541fb4e40e4ba52ac.pdf}{https://stepic.org/certificate/dc3bc62e168ed5459a4e654541fb4e40e4ba52ac.pdf}
+        \item
+            Алгоритмы и структуры данных \\
+            \href{https://stepic.org/certificate/e5a183e2fd2058b6c8e3e39c9ee04347869389b2.pdf}{https://stepic.org/certificate/e5a183e2fd2058b6c8e3e39c9ee04347869389b2.pdf}
+    \end{itemize}
+
+
+\section{ЯЗЫКИ}
+    Русский --- {\it родной} \\
+    Английский --- {\it читаю профессиональную литературу} \\
+
+
+\end{resume}
+\end{document}
